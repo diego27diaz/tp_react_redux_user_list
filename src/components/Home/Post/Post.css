@@ -1,0 +1,22 @@
+.root{
+    width: 31%;
+    display: inline-grid;
+    height: 335px;
+    margin: 1%;
+}
+
+.media{
+ height: 140px;
+}
+
+.card-content{
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .root{
+        width: 100%;
+        display: block;
+    }
+    
+}
